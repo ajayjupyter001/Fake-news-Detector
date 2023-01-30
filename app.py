@@ -36,4 +36,4 @@ def predict():
         return render_template('index.html', prediction="Something went wrong")
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5000,debug=True)
+    app.run(host='0.0.0.0', port=$PORT,debug=True)
